@@ -6,9 +6,7 @@ services:
     image: jc21/nginx-proxy-manager:latest
     restart: always
     ports:
-      - "80:80"   # HTTP
-      - "443:443" # HTTPS
-      - "81:81"   # NPM Admin UI
+      - "8090:81"
     environment:
       DB_SQLITE_FILE: "/data/database.sqlite"
     volumes:
