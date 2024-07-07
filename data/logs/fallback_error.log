@@ -1,0 +1,11 @@
+2024/07/07 14:04:19 [alert] 183#183: 512 worker_connections are not enough
+2024/07/07 14:04:19 [error] 183#183: *937 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/07/07 14:05:00 [error] 184#184: *939 open() "/var/www/html/redoc" failed (2: No such file or directory), client: 172.19.0.1, server: localhost-nginx-proxy-manager, request: "GET /redoc HTTP/1.1", host: "localhost"
+2024/07/07 14:05:08 [error] 184#184: *940 open() "/var/www/html/docs" failed (2: No such file or directory), client: 172.19.0.1, server: localhost-nginx-proxy-manager, request: "GET /docs HTTP/1.1", host: "localhost"
+2024/07/07 14:05:27 [error] 184#184: *942 open() "/var/www/html/api" failed (2: No such file or directory), client: 172.19.0.1, server: localhost-nginx-proxy-manager, request: "GET /api HTTP/1.1", host: "localhost"
+2024/07/07 14:59:32 [alert] 183#183: 512 worker_connections are not enough
+2024/07/07 14:59:32 [error] 184#184: *835 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/07/07 15:27:02 [alert] 184#184: 512 worker_connections are not enough
+2024/07/07 15:27:02 [error] 184#184: *773 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/07/07 15:40:16 [alert] 183#183: 512 worker_connections are not enough
+2024/07/07 15:40:16 [error] 183#183: *973 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "localhost", referrer: "http://localhost/"
